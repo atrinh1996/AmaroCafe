@@ -1,0 +1,58 @@
+/* Additional Styling for Amaro Cafe Homepage */
+/* Two Column Design */
+
+/* Styling for main content of page */
+#main-home {
+    float:left;
+    width:60%;
+    box-sizing: border-box;
+}
+
+#main-home h1{
+    font-size:30px;
+    font-weight: lighter;
+    color:#ffffff;
+    background: #000000;
+
+    /* Position of the main content head */
+    width:50%;
+    text-align: center;
+    margin-left: 27.5%;
+    margin-right: 27.5%;
+}
+
+#main-home p{
+    line-height: 1.2;
+}
+
+
+/* Styling for side content on main section */
+#sidebar-sched{
+    float:right;
+    width:30%;
+    margin-top: 10%;
+    padding-bottom: 5%;
+    padding-top: 2.5%;
+    background-color:#000000;
+    color:#ffffff;
+    box-sizing:border-box;
+    border-radius: 25px;
+    border-style: dotted;
+    border-width: 5px;
+}
+
+/* Styling for homepage's sidebar */
+#sidebar-sched h1{
+    font-weight: lighter;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Hours of operations as table */
+#sidebar-sched table{
+    font-size: 15px;
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
