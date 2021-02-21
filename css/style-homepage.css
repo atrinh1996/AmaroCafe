@@ -1,28 +1,6 @@
 /* Additional Styling for Amaro Cafe Homepage */
 /* Two Columns for Desktop, One Column on Mobile */
 
-/* Styling for main content of page */
-#main-home {
-    float:none;
-    width:100%;
-    box-sizing: border-box;
-}
-
-#main-home h1{
-    font-size:30px;
-    font-weight: lighter;
-    color:#ffffff;
-    background: #000000;
-
-    /* Position of the main content head */
-    width:80%;
-    text-align: center;
-    margin-left: 10%;
-}
-
-#main-home p{
-    line-height: 1.2;
-}
 
 /* Styling for side content on homepage */
 #sidebar-sched{
@@ -44,9 +22,9 @@
 
 /* Styling for homepage's sidebar */
 #sidebar-sched h1{
-    font-weight: lighter;
-    font-size: 20px;
-    text-align: center;
+    font-weight:lighter;
+    font-size:20px;
+    text-align:center;
 }
 
 /* Hours of operations as table */
@@ -55,14 +33,4 @@
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
-}
-
-/* For Desktop: when width is at least 960 px*/
-@media(min-width:960px){
-    aside{float:right;}
-    #main-home{float:left; width:60%;}
-    #main-home h1{width:50%; margin-left:27.5%; margin-right:27.5%;}
-    #sidebar-sched{width:30%; border-radius:25px; margin-left:auto; margin-right:auto;}
-    #sidebar-sched h1{font-size:25px;}
-    #sidebar-sched table{font-size:20px;}
 }
