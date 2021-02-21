@@ -1,0 +1,45 @@
+/* Additional Styling for Amaro Cafe contact page */
+
+/* New page image */
+#showcase{
+    background-image: url("../images/sebastian-schuppik-H7xTpvBjJS4-unsplash.jpg");
+}
+
+/* Styling for block */
+.block{
+    float:none;
+    width:100%;
+    padding:10px;
+    box-sizing: border-box; 
+}
+
+.block ul{
+    padding:0;
+    /* padding-left:20px; */
+    list-style:none;
+}
+
+.block li{
+    padding-bottom:10px;
+}
+
+#hours li{
+    padding-top:10px;
+    border-bottom:1px dotted #000000;
+    width: 75%;
+}
+
+.block img{
+    width:50%;
+    margin-left: 20%;
+    border-radius: 100% 100% 100% 7.5%;
+    border:1px solid #000000;
+}
+
+
+/* For Desktop: when width is at least 960 px*/
+@media(min-width:960px){
+    .block{float:left; width:50%;}
+    .block ul{padding-left:20px;}
+    .block img{margin-left: 15%; margin-right: 15%;}
+}
