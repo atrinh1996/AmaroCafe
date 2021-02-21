@@ -13,6 +13,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/style-homepage.css">
+    <style>
+        #main{float:none; width:100%; box-sizing: border-box;}
+        #main h1{width:80%; margin-left: 10%;}
+        /* For Desktop: when width is at least 960 px*/
+        @media(min-width:960px){
+            aside{float:right;}
+            #main{float:left; width:60%;}
+            #main h1{width:50%; margin-left:27.5%; margin-right:27.5%;}
+            #sidebar-sched{width:30%; border-radius:25px; margin-left:auto; margin-right:auto;}
+            #sidebar-sched h1{font-size:25px;}
+            #sidebar-sched table{font-size:20px;}
+        }
+    </style>
 </head>
 
 <body>
