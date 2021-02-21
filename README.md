@@ -7,12 +7,12 @@ Spring 2021
 
 Acknowledgements:
 
-  Image Source for assignment: 
+Image Source for assignment: 
   
-    https://unsplash.com/
+https://unsplash.com/
     
-    https://www.pngkey.com/
+https://www.pngkey.com/
     
-  Artists: Patrick Tomasso, Sebastian Schuppik, Nathan Dumlao, Clem Onojeghuo
-  
-  Other Resource: https://www.w3schools.com/
+Artists: Patrick Tomasso, Sebastian Schuppik, Nathan Dumlao, Clem Onojeghuo
+
+Other Resource: https://www.w3schools.com/
