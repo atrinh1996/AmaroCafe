@@ -5,7 +5,7 @@
 body{
     background-color:#fffef9;
     color:#555555;
-    font-family: "Consolas", 'Courier New', Courier, monospace;
+    font-family: 'Inconsolata', monospace;
     font-size:16px;
     line-height:1.0;
     margin:0;
@@ -81,7 +81,7 @@ a:hover{
 #showcase h1{
     color:white;
     font-size:30px;
-    font-family: "Lucida Calligraphy", cursive;
+    font-family: 'Dancing Script', cursive;
     font-weight: lighter;
     line-height: 1.2;
     margin-top: 300px;
